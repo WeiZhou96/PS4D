@@ -1,0 +1,11 @@
+--- a/models/SpaTrackV2/models/SpaTrack.py
++++ b/models/SpaTrackV2/models/SpaTrack.py
+@@ -613,7 +613,7 @@
+                     pts_q_3d[...,2] *= H_resize / H
+                 else:
+                     # adjust the query with uncertainty
+-                    if (full_point==False) and (overlap_d is None):
++                    if False and (full_point==False) and (overlap_d is None):  # keep every user query; dropping low-confidence queries and padding with random duplicates breaks the query-output correspondence
+                         pts_q_unc = sample_features5d(unc_metric[None], pts_q).squeeze()
+                         pts_q = pts_q[:,:,pts_q_unc>0.5,:]
+                         if (pts_q_unc<0.5).sum() > 0:

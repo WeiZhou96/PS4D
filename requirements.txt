@@ -1,0 +1,11 @@
+# CPU part (reliability model, measurements, graph, fusion, evaluation, tables)
+numpy>=2.0
+scipy>=1.11
+opencv-python-headless>=4.9
+scikit-learn==1.8.0
+matplotlib>=3.7
+pytest>=7
+# full pipeline: install PyTorch with CUDA and the third-party models (see README and third_party/README.md), then
+#   torch torchvision pillow safetensors huggingface_hub einops timm
+# dataset conversion and DROID label certification:
+#   pyyaml h5py av open3d>=0.18

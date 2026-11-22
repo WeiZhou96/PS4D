@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+# local data, checkpoints and third-party checkouts
+data/
+prepared/
+checkpoints/
+third_party/*/
+!third_party/patches/
+demo_out/
+tables_out/
+my_results/
+*.pth
+*.safetensors
+*.pt

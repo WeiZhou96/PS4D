@@ -1,0 +1,37 @@
+{
+ "description": "DROID building groups of each role. Building names of the DROID metadata are replaced by neutral identifiers; the episodes of each group are listed in droid_{train,dev,test}.json.",
+ "training": [
+  "train-building-01",
+  "train-building-02",
+  "train-building-03",
+  "train-building-04",
+  "train-building-05",
+  "train-building-06",
+  "train-building-07",
+  "train-building-08",
+  "train-building-09",
+  "train-building-10",
+  "train-building-11",
+  "train-building-12",
+  "train-building-13",
+  "train-building-14",
+  "train-building-15"
+ ],
+ "development": [
+  "dev-building-01",
+  "dev-building-02",
+  "dev-building-03",
+  "dev-building-04",
+  "dev-building-05",
+  "dev-building-06",
+  "dev-building-07"
+ ],
+ "test": [
+  "test-building-01",
+  "test-building-02",
+  "test-building-03",
+  "test-building-04",
+  "test-building-05",
+  "test-building-06"
+ ]
+}
